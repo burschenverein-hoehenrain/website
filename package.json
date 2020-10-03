@@ -1,0 +1,37 @@
+{
+  "name": "bv-hoehenrain.de",
+  "version": "1.0.0",
+  "description": "Offical homepage of Burschenverein Höhenrain e. V.",
+  "main": "index.js",
+  "repository": "https://github.com/theexiile1305/bvh",
+  "author": "theexiile1305",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "breakpoints-js": "^1.0.6",
+    "browser-js": "^1.10.1",
+    "global": "^4.4.0",
+    "jquery": "^3.5.1",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "nunjucks": "^3.2.2",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-clean-dist": "^0.0.6",
+    "parcel-plugin-nunjucks": "^2.2.1",
+    "parcel-plugin-purgecss": "^3.0.0",
+    "parcel-plugin-static-files-copy": "^2.5.0",
+    "posthtml": "^0.13.3",
+    "posthtml-modules": "^0.6.2",
+    "posthtml-w3c": "^0.9.0",
+    "sass": "^1.26.11"
+  },
+  "scripts": {
+    "start": "parcel src/pages/*.njk ",
+    "build": "parcel build src/pages/index.njk --out-dir dist/ --public-url /"
+  },
+  "staticFiles": {
+    "staticPath": "src/public",
+    "watcherGlob": "**"
+  }
+}
