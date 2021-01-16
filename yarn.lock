@@ -4481,10 +4481,10 @@ posthtml-match-helper@^1.0.1:
   resolved "https://registry.yarnpkg.com/posthtml-match-helper/-/posthtml-match-helper-1.0.1.tgz#451253de8e5844a348e963ad5edd7769eb129513"
   integrity sha1-RRJT3o5YRKNI6WOtXt13aesSlRM=
 
-posthtml-modules@^0.6.2:
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/posthtml-modules/-/posthtml-modules-0.6.2.tgz#d0a8cccdb3ab3d1952954810c82eeabccf64a316"
-  integrity sha512-D6rT8EV+SIL920JOhze40mGxs27RrPjriAcnZQvmT1TnrdW+imp6nuRfgzzDvRXecTxHE1JdRo6jTRioMKfSWw==
+posthtml-modules@^0.6.4:
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/posthtml-modules/-/posthtml-modules-0.6.4.tgz#55b999f50cced4613203b93c4d0da68a6c0b1b9a"
+  integrity sha512-o/zF78UAme7H4r+keW7n2Bys3MIINRWmWTHhNPnKDNQghS0BSxx7Kjve3JF7Sdf1CsCvgmMS2xvar/bNo1JsSQ==
   dependencies:
     is-json "^2.0.1"
     posthtml-expressions "^1.4.5"
