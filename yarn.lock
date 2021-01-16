@@ -1729,16 +1729,16 @@ cosmiconfig@^5.0.0:
     js-yaml "^3.13.1"
     parse-json "^4.0.0"
 
-cosmiconfig@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-6.0.0.tgz#da4fee853c52f6b1e6935f41c1a2fc50bd4a9982"
-  integrity sha512-xb3ZL6+L8b9JLLCx3ZdoZy4+2ECphCMo2PwqgP1tlfVq6M6YReyzBJtvWWtbDSpNr9hn96pkCiZqUcFEc+54Qg==
+cosmiconfig@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-7.0.0.tgz#ef9b44d773959cae63ddecd122de23853b60f8d3"
+  integrity sha512-pondGvTuVYDk++upghXJabWzL6Kxu6f26ljFw64Swq9v6sQPUL3EUlVDV56diOjpCayKihL6hVe8exIACU4XcA==
   dependencies:
     "@types/parse-json" "^4.0.0"
-    import-fresh "^3.1.0"
+    import-fresh "^3.2.1"
     parse-json "^5.0.0"
     path-type "^4.0.0"
-    yaml "^1.7.2"
+    yaml "^1.10.0"
 
 create-ecdh@^4.0.0:
   version "4.0.4"
@@ -2896,10 +2896,10 @@ import-fresh@^2.0.0:
     caller-path "^2.0.0"
     resolve-from "^3.0.0"
 
-import-fresh@^3.1.0:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/import-fresh/-/import-fresh-3.2.1.tgz#633ff618506e793af5ac91bf48b72677e15cbe66"
-  integrity sha512-6e1q1cnWP2RXD9/keSkxHScg508CdXqXWgWBaETNhyuBFz+kUZlKboh+ISK+bU++DmbHimVBrOz/zzPe0sZ3sQ==
+import-fresh@^3.2.1:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/import-fresh/-/import-fresh-3.3.0.tgz#37162c25fcb9ebaa2e6e53d5b4d88ce17d9e0c2b"
+  integrity sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==
   dependencies:
     parent-module "^1.0.0"
     resolve-from "^4.0.0"
@@ -3701,7 +3701,7 @@ nth-check@^1.0.2:
   dependencies:
     boolbase "~1.0.0"
 
-nunjucks-parser@^1.0.2:
+nunjucks-parser@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/nunjucks-parser/-/nunjucks-parser-1.1.0.tgz#880f256a856d30b2921c765ee92e2d2b7fd2b0ce"
   integrity sha512-/iGLorThdPAG//6N7hKgtL3NLinaN+WEwjKT9CFka2PC6f/RodBqUAWG6LWIXiH1hVx5EYztSPirUSrzze/oDw==
@@ -3962,13 +3962,13 @@ parcel-plugin-clean-dist@^0.0.6:
   resolved "https://registry.yarnpkg.com/parcel-plugin-clean-dist/-/parcel-plugin-clean-dist-0.0.6.tgz#e3da68aaadc19b258c111fc114fe68e7866bf4fb"
   integrity sha512-zzPY/ORCzkV+V7nfyYlONLrBithrx6orJjepdBoqqb9myeV9zQZUoBY41i3QkSSnQX7ilGmWDALX2XlxC6z7Fw==
 
-parcel-plugin-nunjucks@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/parcel-plugin-nunjucks/-/parcel-plugin-nunjucks-2.2.1.tgz#ec250b047c281965dba43101d41db8f3ddc840f6"
-  integrity sha512-fLXbba2BNwQDHxDXvyT6VvoE/5z7qbBq0CTFLXKj+Mno4NyN2zsFrLksdaHHUbKe3hqw0/prlfigUhgI/tEsVQ==
+parcel-plugin-nunjucks@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/parcel-plugin-nunjucks/-/parcel-plugin-nunjucks-2.2.2.tgz#746ad063563b06ae84cace1e9809cd4dd747dc96"
+  integrity sha512-sHLlLBKWHkA1goPazz890mPsK9ymilS7JvGvOu4ypvUcHq6H4MCJIc9L0G7njoitciA9Gy6b2hpCjwxyXk0uKA==
   dependencies:
-    cosmiconfig "^6.0.0"
-    nunjucks-parser "^1.0.2"
+    cosmiconfig "^7.0.0"
+    nunjucks-parser "^1.1.0"
 
 parcel-plugin-purgecss@^3.0.0:
   version "3.0.0"
@@ -5814,7 +5814,7 @@ yallist@^2.1.2:
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
   integrity sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI=
 
-yaml@^1.7.2:
+yaml@^1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/yaml/-/yaml-1.10.0.tgz#3b593add944876077d4d683fee01081bd9fff31e"
   integrity sha512-yr2icI4glYaNG+KWONODapy2/jDdMSDnrONSjblABjD9B4Z5LgiircSt8m8sRZFNi08kG9Sm0uSHtEmP3zaEGg==
