@@ -21,7 +21,7 @@
     "parcel-plugin-nunjucks": "^2.2.2",
     "parcel-plugin-purgecss": "^3.0.0",
     "parcel-plugin-static-files-copy": "^2.5.0",
-    "posthtml": "^0.13.3",
+    "posthtml": "^0.13.4",
     "posthtml-modules": "^0.6.2",
     "posthtml-w3c": "^0.9.0",
     "sass": "^1.26.11"
