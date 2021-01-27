@@ -1,0 +1,19 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@master
+      - name: Setup node
+        uses: actions/setup-node@v1
+      - name: Build
+        run: |
+          yarn install --frozen-lockfile
+          yarn build 
