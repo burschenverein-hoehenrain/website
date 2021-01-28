@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Offical homepage of Burschenverein Höhenrain e. V.",
   "main": "index.js",
-  "repository": "https://github.com/theexiile1305/bvh",
+  "repository": "https://github.com/burschenverein-hoehenrain/website",
   "author": "theexiile1305",
   "license": "MIT",
   "private": false,
