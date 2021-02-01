@@ -3421,7 +3421,7 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.4:
+lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.4:
   version "4.17.20"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
@@ -4488,7 +4488,7 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.11, postcss@^7.0.17, postcss@^7.0.2
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-posthtml-expressions@^1.4.5:
+posthtml-expressions@^1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/posthtml-expressions/-/posthtml-expressions-1.7.1.tgz#b62b47a9c2cc8216cbbb07d2e9e7b293f3c1f5bc"
   integrity sha512-OtshMi4yJO/KAUSzLOdhWPaffPApY3lXZpJKzu4jVHfO7b8/a26Hgsl/cjC6PGtpyDEHbYChnV/b4DbIUoVREw==
@@ -4502,15 +4502,16 @@ posthtml-match-helper@^1.0.1:
   resolved "https://registry.yarnpkg.com/posthtml-match-helper/-/posthtml-match-helper-1.0.1.tgz#451253de8e5844a348e963ad5edd7769eb129513"
   integrity sha1-RRJT3o5YRKNI6WOtXt13aesSlRM=
 
-posthtml-modules@^0.6.4:
-  version "0.6.4"
-  resolved "https://registry.yarnpkg.com/posthtml-modules/-/posthtml-modules-0.6.4.tgz#55b999f50cced4613203b93c4d0da68a6c0b1b9a"
-  integrity sha512-o/zF78UAme7H4r+keW7n2Bys3MIINRWmWTHhNPnKDNQghS0BSxx7Kjve3JF7Sdf1CsCvgmMS2xvar/bNo1JsSQ==
+posthtml-modules@^0.7.3:
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/posthtml-modules/-/posthtml-modules-0.7.3.tgz#421fb71e4644c87c56110241a7ce168867dbb1e0"
+  integrity sha512-KkOD7kpAwxZkHbFpjzHHuJ/u9ut3zKKLzooPosHz27vE0hGeEIa9/wIdMuZ+NZ1I/D6zcPgkS0aE1NhFmlLTmw==
   dependencies:
     is-json "^2.0.1"
-    posthtml-expressions "^1.4.5"
+    lodash "^4.17.20"
+    posthtml-expressions "^1.7.1"
     posthtml-match-helper "^1.0.1"
-    posthtml-render "^1.2.2"
+    posthtml-render "^1.4.0"
 
 posthtml-parser@^0.4.0, posthtml-parser@^0.4.1:
   version "0.4.2"
@@ -4533,7 +4534,7 @@ posthtml-parser@^0.6.0:
   dependencies:
     htmlparser2 "^5.0.1"
 
-posthtml-render@^1.1.3, posthtml-render@^1.1.5, posthtml-render@^1.2.0, posthtml-render@^1.2.2, posthtml-render@^1.2.3, posthtml-render@^1.3.0, posthtml-render@^1.4.0:
+posthtml-render@^1.1.3, posthtml-render@^1.1.5, posthtml-render@^1.2.0, posthtml-render@^1.2.3, posthtml-render@^1.3.0, posthtml-render@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/posthtml-render/-/posthtml-render-1.4.0.tgz#40114070c45881cacb93347dae3eff53afbcff13"
   integrity sha512-W1779iVHGfq0Fvh2PROhCe2QhB8mEErgqzo1wpIt36tCgChafP+hbXIhLDOM8ePJrZcFs0vkNEtdibEWVqChqw==
@@ -4562,6 +4563,14 @@ posthtml@^0.13.4:
   integrity sha512-i2oTo/+dwXGC6zaAQSF6WZEQSbEqu10hsvg01DWzGAfZmy31Iiy9ktPh9nnXDfZiYytjxTIvxoK4TI0uk4QWpw==
   dependencies:
     posthtml-parser "^0.5.0"
+    posthtml-render "^1.2.3"
+
+posthtml@^0.15.1:
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/posthtml/-/posthtml-0.15.1.tgz#1848064f48a1cca0e0323752b1d26fed32e180b8"
+  integrity sha512-QSnUnvnnRv+wt7T9igqNG7GPcc+ZsbX93X+9aPldzgiuQfqIXTbnD47FY8pAtq4gjB9QZrDadDuG8jusmOPpYA==
+  dependencies:
+    posthtml-parser "^0.6.0"
     posthtml-render "^1.2.3"
 
 prelude-ls@~1.1.2:
