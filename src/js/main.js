@@ -1,4 +1,4 @@
-var jQuery = require("jquery");
+import jQuery from "jquery";
 var breakpoints = require("breakpoints-js");
 
 (function($) {
