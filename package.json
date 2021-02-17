@@ -15,7 +15,7 @@
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
-    "nunjucks": "^3.2.2",
+    "nunjucks": "^3.2.3",
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-clean-dist": "^0.0.6",
     "parcel-plugin-nunjucks": "^2.2.2",
