@@ -6,7 +6,6 @@
   "repository": "https://github.com/burschenverein-hoehenrain/website",
   "author": "theexiile1305",
   "license": "MIT",
-  "private": false,
   "dependencies": {
     "breakpoints-js": "^1.0.6",
     "browser-js": "^1.10.1",
