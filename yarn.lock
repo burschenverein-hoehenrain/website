@@ -4585,10 +4585,10 @@ posthtml-render@^1.3.1:
   resolved "https://registry.yarnpkg.com/posthtml-render/-/posthtml-render-1.3.1.tgz#260f15bc43cdf7ea008bf0cc35253fb27e4d03fd"
   integrity sha512-eSToKjNLu0FiF76SSGMHjOFXYzAc/CJqi677Sq6hYvcvFCBtD6de/W5l+0IYPf7ypscqAfjCttxvTdMJt5Gj8Q==
 
-posthtml-w3c@^0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/posthtml-w3c/-/posthtml-w3c-0.9.0.tgz#d4de927911373ab70a6cfdbfe6fe7b22b21729d7"
-  integrity sha512-ilsQm2Yw//Zfa02SU639U+rDTXy3XzovFP1JEs8Hhv8ajFwUhJSn+ctKykMfdtaNPG6pNEvqcLZhGLSxAg51MQ==
+posthtml-w3c@^0.9.1:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/posthtml-w3c/-/posthtml-w3c-0.9.1.tgz#82eeaa9f112ea33aec796c7344d3a63aa6496233"
+  integrity sha512-kReSlMKWM974psFuWBmn3DyGwih+bHcmI8j2BboAyfsDpiF6MJDBmnYT8b/Ud/l3tzGhh+Q3eNkj3Z1ICGnj+Q==
   dependencies:
     log-symbols "^3.0.0"
     posthtml-render "^1.2.0"
