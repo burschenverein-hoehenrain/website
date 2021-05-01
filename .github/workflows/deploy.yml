@@ -15,7 +15,7 @@ jobs:
         uses: actions/setup-node@v1
       - name: Build
         run: |
-          yarn install --frozen-lockfile
+          yarn install --immutable --immutable-cache
           yarn build      
       - name: sync s3
         uses: jakejarvis/s3-sync-action@master
